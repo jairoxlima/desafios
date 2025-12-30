@@ -6,7 +6,7 @@ let xp = "10001";
 let nivel;
 
 // Estrutura de decisão para classificar o nível do herói com base na quantidade de XP
-if (xp < 1000) {
+if (xp <= 1000) {
 nivel = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
 nivel = "Bronze";
@@ -20,7 +20,7 @@ nivel = "Platina";
 nivel = "Ascendente";
 } else if (xp >= 9001 && xp <= 10000) {
 nivel = "Imortal";
-} else if (xp >= 10001) {
+} else if (xp > 10000) {
 nivel = "Radiante";
 }
 
